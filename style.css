@@ -173,14 +173,16 @@ img {
 
 /* Hero Section */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-    padding-top: 60px;
-    /* Offset for fixed nav */
+    padding-top: 120px;
+    /* Increased from 60px to clear navbar + profile pic top margin */
+    padding-bottom: 60px;
+    /* Add bottom padding for balance */
 }
 
 .hero-content {
